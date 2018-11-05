@@ -2,11 +2,22 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: none;
 }
 
 header {
     height: 71px;
     background: linear-gradient(#373c48, #2a2d32);
+}
+
+.h2-headline {
+    color: #a5adb8;
+    font-size: 24px;
+}
+
+.h2-headline:first-letter {
+    color: #ae4b5d;
+
 }
 
 .header-block {
@@ -90,16 +101,6 @@ main {
     margin-bottom: 20px;
 }
 
-.eaten-berry__headline {
-    color: #9aa1ac;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.eaten-berry__headline:first-letter {
-    color: #ae4b5d;
-}
-
 .eaten-berry__par-1 {
     color: #2d3338;
     font-weight: bold;
@@ -173,6 +174,7 @@ main {
 
 .sidebar-and-section {
     display: flex;
+    padding-bottom: 60px;
 }
 
 .sidebar {
@@ -265,16 +267,6 @@ main {
     padding-left: 28px;
 }
 
-.what-we-do-block__headline-first {
-    color: #a5adb8;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.what-we-do-block__headline-first:first-letter {
-    color: #ae4b5d;
-}
-
 .what-we-do-block__text {
     color: #5c646e;
     font-size: 14px;
@@ -310,17 +302,8 @@ main {
     margin-top: 20px;
 }
 
-.lists-block__headline {
-    color: #a5adb8;
-    font-size: 24px;
-}
-
 ol {
     margin-left: 16px;
-}
-
-.lists-block__headline:first-letter {
-    color: #ae4b5d;
 }
 
 .lists-block__paragraph {
@@ -368,6 +351,67 @@ li li {
     font-size: 14px;
     margin-top: 12px;
 }
+
+.table-block {
+    margin-top: 35px;
+}
+
+.table-block__table {
+    margin-top: 22px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+/*.table-block__table td {*/
+    /*box-sizing: border-box;*/
+    /*border-left: 1px #fff solid;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*padding-left: 13px;*/
+    /*padding-right: 35px;*/
+/*}*/
+
+.table-block__table tr {
+    background-color: #282d33;
+    color: #a5adb8;
+    font-size: 12px;
+}
+
+#table-block__first-line td {
+    background-color: #9c4757;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.table-block__first-cell {
+    padding-left: 30px;
+}
+
+.table-block__table td:nth-child(1) {
+    padding-left: 18px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.table-block__table td:nth-child(2),
+.table-block__table td:nth-child(5){
+    padding-left: 9px;
+    padding-right: 39px;
+}
+
+.table-block__table td:nth-child(3),
+.table-block__table td:nth-child(4){
+    padding-left: 9px;
+    padding-right: 47px;
+}
+
+.footer-block {
+    border-top: #9c4757 8px solid;
+}
+
+
 
 
 
