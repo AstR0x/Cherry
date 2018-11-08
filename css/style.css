@@ -418,8 +418,10 @@ li li {
 .free-column-block__block p {
     font-size: 18px;
     color: #a5adb8;
-    border-bottom: 1px solid #40474f;
+    border-bottom: 1px solid #191c20;
+    padding-bottom: 6px;
 }
+
 
 .free-column-block__working-hours-text {
     color: #85898f;
@@ -428,20 +430,17 @@ li li {
 }
 
 .free-column-block__block ul {
+    list-style-type: none;
     margin-top: 13px;
 }
 
-.free-column-block__list_second li {
-    list-style-type: none;
+.free-column-block__list_first {
+    margin-left: 20px;
+    list-style-image: url("../img/clock.png");
 }
 
-.free-column-block__list_second li:before {
-    color: #9c4757;
-    content: "\2022";
-}
-
-.free-column-block__list_third {
-    list-style-type: none;
+.free-column-block__list_second {
+    list-style-image: url("../img/point.png");
 }
 
 .free-column-block__block li {
