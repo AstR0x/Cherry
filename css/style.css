@@ -90,7 +90,7 @@ main {
 .eaten-berry {
     height: 240px;
     background-color: rgba(40, 45, 51, 0.75);
-    background-image: url("../img/img1.png");
+    background-image: url("../img/img1.jpg");
     filter: contrast(120%);
     box-sizing: border-box;
     padding-left: 37px;
@@ -436,11 +436,11 @@ li li {
 
 .free-column-block__list_first {
     margin-left: 20px;
-    list-style-image: url("../img/clock.png");
+    list-style-image: url("../img/clock.jpg");
 }
 
 .free-column-block__list_second {
-    list-style-image: url("../img/point.png");
+    list-style-image: url("../img/point.jpg");
 }
 
 .free-column-block__block li {
