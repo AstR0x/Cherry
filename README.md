@@ -13,4 +13,4 @@ Website template.
 3. Launch index.html
 
 ## Screenshot
-![screenshot](https://github.com/AstR0x/cherry/blob/master/img/screenshots/screenshot.jpg)
+![screenshot](https://github.com/AstR0x/astr0x.github.io/blob/master/screenshots/cherry.jpg)
